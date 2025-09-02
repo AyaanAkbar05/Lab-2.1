@@ -1,19 +1,10 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Relection Questions: 
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+What accessibility enhancements were the most challenging to implement, and why?
+The most challenging accessibility enhancement to me, was adjusting the color contrast in order to satisfy the WCAG AA contrast ratio threshold.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+How do ARIA attributes improve the experience for users relying on assistive technologies?
+ARIA attributes essentially translate custom components into accessible experiences so that users relying on screen readers or other assistive technology get the same context and feedback as sighted users. For example: aria-label or aria-labelledby gives names to buttons and controls that don’t have visible labels.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+What tools did you use to check color contrast, and how did they help?
+I used the Developer tools on Chrome to check the color contrast, and it showed pass/fail directly when inspecting elements.
